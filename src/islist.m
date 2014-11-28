@@ -8,7 +8,6 @@ function l = islist(o)
 % OUTPUTS 
 % - l [logical] true (1) iff o is a list object. 
 
-    
 % Copyright (C) 2014 Dynare Team
 %
 % This code is free software: you can redistribute it and/or modify
@@ -16,7 +15,7 @@ function l = islist(o)
 % the Free Software Foundation, either version 3 of the License, or
 % (at your option) any later version.
 %
-% Dynare is distributed in the hope that it will be useful,
+% Dynare list submodule is distributed in the hope that it will be useful,
 % but WITHOUT ANY WARRANTY; without even the implied warranty of
 % MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 % GNU General Public License for more details.
