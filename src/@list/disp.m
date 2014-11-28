@@ -1,5 +1,15 @@
 function disp(o)
 
+% Overloads the disp Matlab/Octave function.
+%
+% INPUTS 
+% - o [list]     A list object.
+%
+% OUTPUTS 
+% None.
+%
+% See also list4display
+
 % Copyright (C) 2014 Dynare Team
 %
 % This code is free software: you can redistribute it and/or modify

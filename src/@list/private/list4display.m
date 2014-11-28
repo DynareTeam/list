@@ -9,8 +9,6 @@ function str = list4display(o, name, max_number_of_elements)
 %
 % OUTPUTS 
 % - str  [string] Representation of the list object as a string. 
-%
-% See also display, disp
 
 % Copyright (C) 2014 Dynare Team
 %
