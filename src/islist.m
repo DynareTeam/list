@@ -1,5 +1,14 @@
 function l = islist(o)
 
+% Returns logical true (1) if o is a list object.
+%
+% INPUTS 
+% - o [any] a matlab variable
+%
+% OUTPUTS 
+% - l [logical] true (1) iff o is a list object. 
+
+    
 % Copyright (C) 2014 Dynare Team
 %
 % This code is free software: you can redistribute it and/or modify
