@@ -1,5 +1,14 @@
 function l = ne(o, p)
 
+% Compares two list objects element by element (overloads ~= operator).
+%
+% INPUTS 
+% - o   [list]    A list object (with n or 1 elements).
+% - p   [list]    A list object (with n or 1 elements).
+%
+% OUTPUTS 
+% - l   [logical] Array of true and false (1 and 0). l(i) is equal to true iff o{i}~=p{i}.
+
 % Copyright (C) 2014 Dynare Team
 %
 % This code is free software: you can redistribute it and/or modify

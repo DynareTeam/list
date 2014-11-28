@@ -1,16 +1,13 @@
 function q = minus(o, p)
 
-% Union of two list objects.
+% Difference of two list objects. Overloads the - binary  operator.
 %
 % INPUTS 
-% - o list object
-% - p list object or string
+% - o [list]
+% - p [list]
 %
 % OUTPUTS 
-% - q list object
-%
-% REMARKS 
-% - Repetitions are removed.
+% - q [list] All the elements in o that do not belong to p.
 
 % Copyright (C) 2014 Dynare Team
 %

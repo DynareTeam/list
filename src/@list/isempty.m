@@ -1,5 +1,13 @@
 function l = isempty(o)
     
+% Returns logical true (1) if list object o is empty.
+%
+% INPUTS 
+% - o [list] a list object.
+%
+% OUTPUTS 
+% - l [logical] true (1) iff o is empty. 
+
 % Copyright (C) 2014 Dynare Team
 %
 % This code is free software: you can redistribute it and/or modify

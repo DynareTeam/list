@@ -1,5 +1,18 @@
 function p = copy(o)
-    
+
+% Adds elements to a list object.
+%
+% INPUTS 
+% - o   [list]    A list object.
+%
+% OUTPUTS 
+% - p   [list]    A copy of list object o.
+%
+% REMARKS 
+% 1. Note that if o is a list object, then by defining another object p by p = o, any
+% modification on p will change o and any modification on o will change p. If you need to change
+% p without changing o you need to do p = copy(o) instead.  
+
 % Copyright (C) 2014 Dynare Team
 %
 % This code is free software: you can redistribute it and/or modify

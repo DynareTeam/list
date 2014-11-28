@@ -20,6 +20,8 @@ classdef list<handle
     end
     methods
         function o = list(varargin)
+        % Constructor for list objects. Arbirary number of arguments (strings), each 
+        % argument is an element of the instantiated list object. 
             if ~nargin
                 o.elements = {};
                 return
@@ -36,6 +38,10 @@ classdef list<handle
             error('list:ArgCheck', 'Input arguments must be strings!')
         end
         function p = subsref(o, S)
+        % Overloads subsref method for () and {} indexing.
+        %
+        % If o is a list object, then o{i} returns an element of o and o(i) extract a one element
+        % list (singleton). 
             switch S(1).type
               case '{}'
                 p = o.elements{S(1).subs{1}};
@@ -45,6 +51,7 @@ classdef list<handle
                 p = builtin('subsref', o, S);
             end
         end
+        % Available methods.
         o = add(o, varargin);
         o = remove(o, varargin);
         l = isempty(o);
@@ -57,14 +64,5 @@ classdef list<handle
         q = minus(o, p);
         q = mtimes(o, p);
         q = mpower(o, n);
-    end
-end
-
-
-function S = shiftS(S,n)
-    if length(S) >= n+1
-        S = S(n+1:end);
-    else
-        S = {};
     end
 end

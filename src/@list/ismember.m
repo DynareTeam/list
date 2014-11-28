@@ -1,5 +1,14 @@
 function l = ismember(e, o)
 
+% Returns logical true (1) if string e is an element of list object.
+%
+% INPUTS 
+% - e [string] 
+% - o [list]
+%
+% OUTPUTS 
+% - l [logical] true (1) iff e belongs to o. 
+
 % Copyright (C) 2014 Dynare Team
 %
 % This code is free software: you can redistribute it and/or modify

@@ -1,13 +1,13 @@
 function q = plus(o, p)
 
-% Union of two list objects.
+% Union of two list objects. Overloads the + binary operator.
 %
 % INPUTS 
-% - o list object
-% - p list object or string
+% - o [list]
+% - p [list]
 %
 % OUTPUTS 
-% - q list object
+% - q [list]
 %
 % REMARKS 
 % - Repetitions are removed.

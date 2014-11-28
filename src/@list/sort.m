@@ -1,5 +1,13 @@
 function o = sort(o)
 
+% Sorts the elements in a list object.
+%
+% INPUTS 
+% - o [list]
+%
+% OUTPUTS 
+% - o [list]
+
 % Copyright (C) 2014 Dynare Team
 %
 % This code is free software: you can redistribute it and/or modify

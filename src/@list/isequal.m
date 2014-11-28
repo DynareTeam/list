@@ -1,5 +1,14 @@
 function l = isequal(o, p)
 
+% Returns logical true (1) if list object o and p are equal.
+%
+% INPUTS 
+% - o [list] A list object.
+% - p [list] A list object.
+%
+% OUTPUTS 
+% - l [logical] true (1) iff all the elements of o and p are equal.
+
 % Copyright (C) 2014 Dynare Team
 %
 % This code is free software: you can redistribute it and/or modify

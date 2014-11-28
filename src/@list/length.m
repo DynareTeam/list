@@ -1,5 +1,13 @@
 function n = length(o)
 
+% Returns the number of elements in list object o.
+%
+% INPUTS 
+% - o [list]
+%
+% OUTPUTS 
+% - n [integer] number of elements in o. 
+
 % Copyright (C) 2014 Dynare Team
 %
 % This code is free software: you can redistribute it and/or modify

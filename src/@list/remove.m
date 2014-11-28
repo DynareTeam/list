@@ -1,5 +1,17 @@
 function o = remove(o, varargin)
 
+% Removes elements from a list object. 
+%
+% INPUTS 
+% - o   [list]    A list object.
+% - ... [string]  Elements to be removed.
+%
+% OUTPUTS 
+% - o [list]
+%
+% REMARKS 
+% 1. As for the add method, a call to this method does not create a copy of the object (in place modification).
+    
 % Copyright (C) 2014 Dynare Team
 %
 % This code is free software: you can redistribute it and/or modify

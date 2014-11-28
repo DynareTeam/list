@@ -1,13 +1,13 @@
 function q = mtimes(o, p)
 
-% Cartesian product of two list objects.
+% Cartesian product of two list objects. Overloads the * binary operator.
 %
 % INPUTS 
-% - o list object
-% - p list object
+% - o [list]
+% - p [list]
 %
 % OUTPUTS 
-% - q list object
+% - q [list]
 
 % Copyright (C) 2014 Dynare Team
 %
